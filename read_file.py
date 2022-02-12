@@ -36,8 +36,8 @@ import smtplib
 # Email Sending Function
 def send_email(email, email_info):
     # Start of email curation and connection 
-    gmail_user = 'reply.mails4512@gmail.com'
-    gmail_password = 'pas$WRD33'
+    gmail_user = 'smtp_server' # server location for smtp
+    gmail_password = 'password'# authentication
 
 
     # Formatting the Message
